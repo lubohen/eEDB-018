@@ -1,14 +1,12 @@
 import requests
-
-CLIENT_ID = 'd4880e347df145ec95382a22b3305276'
-CLIENT_SECRET = '94491d60b1a345199d2ecdabcbe2e935'
+from config import SPOT_CLIENT_SECRET, SPOT_CLIENT_ID
 
 AUTH_URL = 'https://accounts.spotify.com/api/token'
 
 auth_response = requests.post(AUTH_URL, {
     'grant_type': 'client_credentials',
-    'client_id': CLIENT_ID,
-    'client_secret': CLIENT_SECRET,
+    'client_id': SPOT_CLIENT_ID,
+    'client_secret': SPOT_CLIENT_SECRET,
 })
 
 # convert the response to JSON
