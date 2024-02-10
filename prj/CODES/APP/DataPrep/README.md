@@ -68,7 +68,3 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para forkar o projet
 Este projeto é distribuído sob a Licença MIT. Veja o arquivo `LICENSE` para mais informações.
 
 ## Contato
-
-Seu Nome - [@seuTwitter](https://twitter.com/seuTwitter) - email@example.com
-
-Link do Projeto: [https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
